@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: lightgray;
+            color: darkslategrey;
+        }
+        h1 {
+            color: darkslategrey;
+        }
+    </style>
+    <header> 
+        <h1>사용자 등록 신청서</h1>
+    </header>
+    <main>
+        <form action="submit_registration" method="post">
+            <fieldset>
+                <legend>기본 정보(Essential)</legend>
+                <label for="id">아이디:</label><br>
+                <input type="text" id="id" name="id" required><br><br>
+                <label for="password">비밀번호:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+                <label for="email">이메일:</label><br>
+                <input type="email" id="email" name="email" placeholder="xxxxx@xxxxx.com" required><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>추가 정보(Optional)</legend>
+                <label for="phone">연락처:</label><br>
+                <input type="text" id="phone" name="phone"><br><br>
+                <label for="interest">관심 분야:</label><br>
+                <input type="text" id="interest" name="interest"><br><br>
+                <la
+            </fieldset>
+            <input type="submit" value="등록">
+
+        </form>
+    </main>
+    <footer>
+        <p><a href="./index.html">홈으로</a></p>
+        <p>&copy; 2026 Web Programming Course. All rights reserved.</p>
+    </footer>
+</body>
+</html>
