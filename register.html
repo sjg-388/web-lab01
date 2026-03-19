@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
     <style>
         body {
             background-color: lightgray;
             color: darkslategrey;
         }
-        h1 {
-            color: darkslategrey;
-        }
     </style>
+</head>
+<body>
     <header> 
         <h1>사용자 등록 신청서</h1>
     </header>
@@ -32,7 +29,7 @@
             <fieldset>
                 <legend>추가 정보(Optional)</legend>
                 <label for="phone">연락처:</label><br>
-                <input type="text" id="phone" name="phone" placeholder="010-0000-0000"><br><br>
+                <input type="text" id="phone" name="phone" placeholder="010-0000-0000" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"><br><br>
                 <label for="interest">관심 분야:</label><br>
                 <input type="radio" id="HTML" name="interest" value="HTML">
                 <label for="HTML">HTML</label><br>
